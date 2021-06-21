@@ -1,6 +1,4 @@
-//  Created by react-native-create-bridge
-
-package com.thebylito.navigationbarcolor;
+package com.astrocorp.customnavigationbarcolor;;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

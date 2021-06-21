@@ -1,7 +1,7 @@
 {
-  "name": "react-native-navigation-bar-color",
-  "version": "2.0.1",
-  "description": "React Native component to change bottom bar/navigation bar color on Android",
+  "name": "react-native-custom-navigation-bar-color",
+  "version": "1.0.0",
+  "description": "React Native component to change bottom bar/navigation bar color on Android/iOS",
   "main": "index.js",
   "keywords": [
     "react-native",
@@ -15,8 +15,8 @@
     "bottom-bar",
     "bottom-bar-color"
   ],
-  "repository": "https://github.com/thebylito/react-native-navigation-bar-color.git",
-  "author": "Welington da Silva - (https://github.com/thebylito)",
+  "repository": "https://github.com/AstroCorp/React-Native-Custom-Navigation-Bar-Color.git",
+  "author": "Alejandro Leal - (https://github.com/AstroCorp)",
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

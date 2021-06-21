@@ -1,6 +1,4 @@
-//  Created by react-native-create-bridge
-
-package com.thebylito.navigationbarcolor;
+package com.astrocorp.customnavigationbarcolor;;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
