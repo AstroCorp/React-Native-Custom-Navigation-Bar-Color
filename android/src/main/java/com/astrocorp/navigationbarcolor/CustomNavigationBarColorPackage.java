@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class CustomCustomNavigationBarColorPackage implements ReactPackage {
+public class CustomNavigationBarColorPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
       // Register your native module

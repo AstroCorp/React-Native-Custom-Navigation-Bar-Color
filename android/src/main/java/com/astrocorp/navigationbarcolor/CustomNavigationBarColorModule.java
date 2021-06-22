@@ -22,7 +22,7 @@ import java.util.Map;
 import com.facebook.react.uimanager.IllegalViewOperationException;
 import static com.facebook.react.bridge.UiThreadUtil.runOnUiThread;
 
-public class CustomCustomNavigationBarColorModule extends ReactContextBaseJavaModule {
+public class CustomNavigationBarColorModule extends ReactContextBaseJavaModule {
     public static final String REACT_CLASS = "NavigationBarColor";
     private static final String ERROR_NO_ACTIVITY = "E_NO_ACTIVITY";
     private static final String ERROR_NO_ACTIVITY_MESSAGE = "Tried to change the navigation bar while not attached to an Activity";
