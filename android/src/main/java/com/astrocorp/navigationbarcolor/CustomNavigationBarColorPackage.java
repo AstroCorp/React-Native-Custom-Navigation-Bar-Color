@@ -1,4 +1,4 @@
-package com.astrocorp.customnavigationbarcolor;;
+package com.astrocorp.customnavigationbarcolor;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -10,13 +10,13 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class NavigationBarColorPackage implements ReactPackage {
+public class CustomCustomNavigationBarColorPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
       // Register your native module
       // https://facebook.github.io/react-native/docs/native-modules-android.html#register-the-module
       return Arrays.<NativeModule>asList(
-          new NavigationBarColorModule(reactContext)
+          new CustomNavigationBarColorModule(reactContext)
       );
     }
 

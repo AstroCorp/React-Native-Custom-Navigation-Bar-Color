@@ -1,4 +1,4 @@
-package com.astrocorp.customnavigationbarcolor;;
+package com.astrocorp.customnavigationbarcolor;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
@@ -22,7 +22,7 @@ import java.util.Map;
 import com.facebook.react.uimanager.IllegalViewOperationException;
 import static com.facebook.react.bridge.UiThreadUtil.runOnUiThread;
 
-public class NavigationBarColorModule extends ReactContextBaseJavaModule {
+public class CustomCustomNavigationBarColorModule extends ReactContextBaseJavaModule {
     public static final String REACT_CLASS = "NavigationBarColor";
     private static final String ERROR_NO_ACTIVITY = "E_NO_ACTIVITY";
     private static final String ERROR_NO_ACTIVITY_MESSAGE = "Tried to change the navigation bar while not attached to an Activity";
@@ -34,7 +34,7 @@ public class NavigationBarColorModule extends ReactContextBaseJavaModule {
             | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION // hide nav bar
             | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
 
-    public NavigationBarColorModule(ReactApplicationContext context) {
+    public CustomNavigationBarColorModule(ReactApplicationContext context) {
         // Pass in the context to the constructor and save it so you can emit events
         // https://facebook.github.io/react-native/docs/native-modules-android.html#the-toast-module
         super(context);
