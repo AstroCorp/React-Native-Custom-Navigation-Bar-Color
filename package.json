@@ -1,6 +1,6 @@
 {
   "name": "react-native-custom-navigation-bar-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native component to change bottom bar/navigation bar color on Android/iOS",
   "main": "index.js",
   "keywords": [
